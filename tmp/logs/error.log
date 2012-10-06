@@ -1,0 +1,1123 @@
+2012-03-11 15:14:16 Error: [MissingViewException] View file "C:\xampp\htdocs\listaprecios\View\TiposClientes\index.ctp" is missing.
+#0 C:\xampp\htdocs\Cake\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-11 15:15:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientesTiposLista.tipos_lista_id' in 'on clause'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1218): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1086): DboSource->queryAssociation(Object(TiposLista), Object(TiposCliente), 'hasAndBelongsTo...', 'TiposCliente', Array, Array, true, Array, 0, Array)
+#5 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#6 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\TiposListasController.php(32): Model->read(NULL, '1')
+#8 [internal function]: TiposListasController->view('1')
+#9 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposListasController), Array)
+#10 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposListasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-03-11 15:15:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientesTiposLista.tipos_lista_id' in 'on clause'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1218): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1086): DboSource->queryAssociation(Object(TiposLista), Object(TiposCliente), 'hasAndBelongsTo...', 'TiposCliente', Array, Array, true, Array, 0, Array)
+#5 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#6 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\TiposListasController.php(73): Model->read(NULL, '1')
+#8 [internal function]: TiposListasController->edit('1')
+#9 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposListasController), Array)
+#10 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposListasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-03-11 15:18:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientesTiposLista.tipos_lista_id' in 'on clause'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1218): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1086): DboSource->queryAssociation(Object(TiposLista), Object(TiposCliente), 'hasAndBelongsTo...', 'TiposCliente', Array, Array, true, Array, 0, Array)
+#5 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#6 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\TiposListasController.php(73): Model->read(NULL, '1')
+#8 [internal function]: TiposListasController->edit('1')
+#9 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposListasController), Array)
+#10 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposListasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-03-11 15:21:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientesTiposLista.tipos_lista_id' in 'on clause'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1218): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1086): DboSource->queryAssociation(Object(TiposLista), Object(TiposCliente), 'hasAndBelongsTo...', 'TiposCliente', Array, Array, true, Array, 0, Array)
+#5 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#6 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\TiposListasController.php(32): Model->read(NULL, '1')
+#8 [internal function]: TiposListasController->view('1')
+#9 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposListasController), Array)
+#10 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposListasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-03-12 00:25:05 Error: [MissingControllerException] Controller class TiposClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 00:29:30 Error: [MissingControllerException] Controller class TiposClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 00:42:20 Error: [MissingControllerException] Controller class TiposClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 00:42:23 Error: [MissingControllerException] Controller class TiposClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 01:01:58 Error: [MissingControllerException] Controller class XpfUsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 01:03:53 Error: [MissingControllerException] Controller class XpfUsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 01:03:56 Error: [MissingControllerException] Controller class XpfUsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 01:29:13 Error: [MissingActionException] Action ClientesController::Editar() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 01:29:38 Error: [MissingControllerException] Controller class XpfUsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 01:38:41 Error: [MissingActionException] Action ClientesController::Editar() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 01:39:13 Error: [MissingActionException] Action ClientesController::Editar() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 01:39:20 Error: [MissingActionException] Action ClientesController::Ver() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 01:39:25 Error: [MissingActionException] Action ClientesController::Editar() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 01:39:44 Error: [MissingActionException] Action ClientesController::Editar() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-12 02:26:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposCliente.id' in 'field list'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(80): Model->find('list', Array)
+#6 [internal function]: ClientesController->edit('1')
+#7 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 05:17:44 Error: [MissingControllerException] Controller class TiposListasController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-12 14:18:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposListas.id' in 'field list'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposLi...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposLi...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposLi...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesController.php(75): Model->find('list', Array)
+#6 [internal function]: TiposClientesController->edit('1')
+#7 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesController), Array)
+#8 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-12 14:27:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientesTiposLista.nombre_archivo' in 'field list'
+#0 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposLi...', Array)
+#2 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposLi...', Array, Array)
+#3 C:\xampp\htdocs\Cake\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposLi...', false)
+#4 C:\xampp\htdocs\Cake\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesController.php(75): Model->find('list', Array)
+#6 [internal function]: TiposClientesController->edit('1')
+#7 C:\xampp\htdocs\Cake\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesController), Array)
+#8 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-03-13 02:29:45 Error: [MissingActionException] Action ClientesController::url() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-13 02:33:21 Error: [MissingActionException] Action ClientesController::url() could not be found.
+#0 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Cake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-13 20:53:43 Error: [MissingControllerException] Controller class TipoClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-13 20:53:50 Error: [MissingControllerException] Controller class TipoClienteController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 14:34:15 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-03-30 14:34:39 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-03-30 16:15:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 16:19:09 Warning: Warning (2): mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument in [C:\xampp\htdocs\listaprecios\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44]
+Trace:
+mkdir - [internal], line ??
+UploadsController::upload() - APP\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 488
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 103
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 85
+[main] - APP\webroot\index.php, line 98
+
+2012-03-30 16:22:44 Warning: Warning (2): mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument in [C:\xampp\htdocs\listaprecios\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44]
+Trace:
+mkdir - [internal], line ??
+UploadsController::upload() - APP\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 488
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 103
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 85
+[main] - APP\webroot\index.php, line 98
+
+2012-03-30 16:23:44 Warning: Warning (2): mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument in [C:\xampp\htdocs\listaprecios\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44]
+Trace:
+mkdir - [internal], line ??
+UploadsController::upload() - APP\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 488
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 103
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 85
+[main] - APP\webroot\index.php, line 98
+
+2012-03-30 16:26:58 Warning: Warning (2): mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument in [C:\xampp\htdocs\listaprecios\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44]
+Trace:
+mkdir - [internal], line ??
+UploadsController::upload() - APP\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 488
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 103
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 85
+[main] - APP\webroot\index.php, line 98
+
+2012-03-30 16:38:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 16:48:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(68): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:53:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:54:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:56:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:56:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:57:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('2')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:57:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('2')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 17:59:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('2')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:08:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:09:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:09:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:10:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:10:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:10:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:13:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(82): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('2')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 18:40:52 Error: [MissingBehaviorException] Behavior class FileModelBehavior could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('FileModel', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(726): BehaviorCollection->init('TiposClientesTi...', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(156): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(737): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(369): Controller->loadModel('TiposClientesTi...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(407): Controller->__isset('TiposClientesTi...')
+#7 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(66): Controller->__get('TiposClientesTi...')
+#8 [internal function]: TiposClientesTiposListasController->edit('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-03-30 20:24:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(71): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('2')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-03-30 21:31:04 Warning: Warning (2): mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument in [C:\xampp\htdocs\listaprecios\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44]
+Trace:
+mkdir - [internal], line ??
+UploadsController::upload() - APP\Plugin\AjaxMultiUpload\Controller\UploadsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 488
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 103
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 85
+[main] - APP\webroot\index.php, line 98
+
+2012-04-19 23:53:08 Error: [MissingControllerException] Controller class ListapreciosController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-19 23:53:10 Error: [MissingControllerException] Controller class ListapreciosController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-20 00:03:57 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:05:33 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:06:41 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:06:51 Error: [MissingControllerException] Controller class TiposClientesTiposController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-20 00:06:55 Error: [MissingControllerException] Controller class TiposClientesTiposController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-20 00:06:55 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:06:59 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:07:33 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 00:08:30 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(357): CakePlugin::path('AjaxMultiUpload')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(535): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 [internal function]: spl_autoload_call('UploadHelper')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(82): class_exists('UploadHelper')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(850): HelperCollection->load('AjaxMultiUpload...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(456): View->loadHelpers()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-20 02:38:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(83): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-20 02:39:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(83): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-20 02:40:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(83): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-20 02:42:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('UPDATE `lista_p...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\Database\Mysql.php(376): DboSource->execute('UPDATE `lista_p...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1690): Mysql->update(Object(TiposClientesTiposLista), Array, Array)
+#4 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(83): Model->save(Array)
+#5 [internal function]: TiposClientesTiposListasController->edit('1')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-28 03:14:48 Error: [MissingDatasourceConfigException] The datasource configuration "deafault" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('deafault')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('deafault')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('deafault')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('clientes')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#8 [internal function]: ClientesController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-28 03:15:28 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:18:08 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:26:14 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:26:16 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:26:33 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:26:41 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:33:21 Error: [MissingTableException] Table xpf_users for model XpfUsers was not found in datasource default.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#6 [internal function]: ClientesController->index()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-28 03:37:00 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('clientes')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#7 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#8 [internal function]: ClientesController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-28 03:38:24 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#9 [internal function]: ClientesController->index()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-28 03:40:01 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('xpf_users')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#9 [internal function]: ClientesController->index()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-28 03:40:52 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('tipos_clientes')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#9 [internal function]: ClientesController->index()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-28 03:49:28 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3354): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1085): Model->setDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3380): Model->setSource('tipos_clientes')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1043): Model->getDataSource()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(Cliente), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(1087): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\listaprecios\Controller\ClientesController.php(18): Controller->paginate()
+#9 [internal function]: ClientesController->index()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-29 00:44:01 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:44:02 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:45:50 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:45:50 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:46:33 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:46:34 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:46:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:46:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:49:59 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:50:00 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:50:02 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:50:02 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 01:01:35 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 01:01:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 01:18:30 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 01:18:30 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 02:04:02 Error: [MissingViewException] View file "C:\xampp\htdocs\listaprecios\View\Users\login.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-29 21:05:58 Error: [MissingControllerException] Controller class TipoClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 21:05:59 Error: [MissingControllerException] Controller class TipoClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 23:31:33 Error: [MissingViewException] View file "C:\xampp\htdocs\listaprecios\View\XpfUsers\view.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(XpfUsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-29 23:32:23 Error: [MissingViewException] View file "C:\xampp\htdocs\listaprecios\View\XpfUsers\view.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(XpfUsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-29 23:36:48 Error: [MissingControllerException] Controller class MenuController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 23:36:49 Error: [MissingControllerException] Controller class MenuController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 00:46:21 Error: [MissingControllerException] Controller class TiposListasTiposClientesController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 01:07:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientes.id' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposCliente), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(67): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 01:09:50 Error: [MissingActionException] Action TiposClientesTiposListasController::Editar() could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-30 01:10:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientes.id' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposCliente), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(67): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 01:19:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientes.id' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposCliente), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(67): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 01:19:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposClientes.id' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposCliente), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(67): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 01:20:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposCliente.nombre' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposCl...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposCl...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposCl...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposCliente), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(67): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 01:22:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TiposLista.nombre_tipo_lista' in 'field list'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `TiposLi...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(646): DboSource->execute('SELECT `TiposLi...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1057): DboSource->fetchAll('SELECT `TiposLi...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2635): DboSource->read(Object(TiposLista), Array)
+#5 C:\xampp\htdocs\listaprecios\Controller\TiposClientesTiposListasController.php(68): Model->find('list', Array)
+#6 [internal function]: TiposClientesTiposListasController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(TiposClientesTiposListasController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(TiposClientesTiposListasController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-30 03:41:37 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 03:41:58 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 03:41:58 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 03:42:01 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 05:26:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 05:27:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 05:30:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-30 05:36:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\listaprecios\webroot\index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-03 21:57:05 Error: [MissingDatasourceException] Datasource class  could not be found.
+#0 /home/franarc1/public_html/cakephp/lib/Cake/Model/ConnectionManager.php(97): ConnectionManager::loadDataSource('default')
+#1 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3354): ConnectionManager::getDataSource('default')
+#2 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1085): Model->setDataSource('default')
+#3 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3380): Model->setSource('xpf_users')
+#4 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1278): Model->getDataSource()
+#5 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#6 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('User', 'fields')
+#7 /home/franarc1/public_html/listaprecios/View/Users/login.ctp(2): FormHelper->create('User', Array)
+#8 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(908): include('/home/franarc1/...')
+#9 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(872): View->_evaluate('/home/franarc1/...', Array)
+#10 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(43): View->_render('/home/franarc1/...', Array)
+#11 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(463): DebugView->_render('/home/franarc1/...')
+#12 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#13 /home/franarc1/public_html/cakephp/lib/Cake/Controller/Controller.php(962): DebugView->render(NULL, NULL)
+#14 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#15 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 /home/franarc1/public_html/listaprecios/webroot/index.php(103): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2012-05-03 22:07:07 Error: [MissingDatasourceException] Datasource class  could not be found.
+#0 /home/franarc1/public_html/cakephp/lib/Cake/Model/ConnectionManager.php(97): ConnectionManager::loadDataSource('default')
+#1 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3354): ConnectionManager::getDataSource('default')
+#2 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1085): Model->setDataSource('default')
+#3 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3380): Model->setSource('xpf_users')
+#4 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1278): Model->getDataSource()
+#5 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#6 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('User', 'fields')
+#7 /home/franarc1/public_html/listaprecios/View/Users/login.ctp(2): FormHelper->create('User', Array)
+#8 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(908): include('/home/franarc1/...')
+#9 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(872): View->_evaluate('/home/franarc1/...', Array)
+#10 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(43): View->_render('/home/franarc1/...', Array)
+#11 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(463): DebugView->_render('/home/franarc1/...')
+#12 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#13 /home/franarc1/public_html/cakephp/lib/Cake/Controller/Controller.php(962): DebugView->render(NULL, NULL)
+#14 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#15 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2012-05-03 22:11:44 Error: [MissingDatasourceException] Datasource class  could not be found.
+#0 /home/franarc1/public_html/cakephp/lib/Cake/Model/ConnectionManager.php(97): ConnectionManager::loadDataSource('default')
+#1 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3354): ConnectionManager::getDataSource('default')
+#2 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1085): Model->setDataSource('default')
+#3 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(3380): Model->setSource('xpf_users')
+#4 /home/franarc1/public_html/cakephp/lib/Cake/Model/Model.php(1278): Model->getDataSource()
+#5 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#6 /home/franarc1/public_html/cakephp/lib/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('User', 'fields')
+#7 /home/franarc1/public_html/listaprecios/View/Users/login.ctp(2): FormHelper->create('User', Array)
+#8 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(908): include('/home/franarc1/...')
+#9 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(872): View->_evaluate('/home/franarc1/...', Array)
+#10 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(43): View->_render('/home/franarc1/...', Array)
+#11 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(463): DebugView->_render('/home/franarc1/...')
+#12 /home/franarc1/public_html/listaprecios/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#13 /home/franarc1/public_html/cakephp/lib/Cake/Controller/Controller.php(962): DebugView->render(NULL, NULL)
+#14 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#15 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#16 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2012-05-03 22:30:14 Error: [MissingControllerException] Controller class MarcadeaguaController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-03 22:30:49 Error: [MissingControllerException] Controller class MarcadeaguaController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-03 22:32:33 Error: [MissingControllerException] Controller class MarcadeaguaController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-03 22:34:31 Error: [MissingControllerException] Controller class MarcadeaguaController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-07 09:20:54 Error: [MissingViewException] View file "/home/franarc1/public_html/listaprecios/View/XpfUsers/view.ctp" is missing.
+#0 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/franarc1/public_html/cakephp/lib/Cake/Controller/Controller.php(962): View->render(NULL, NULL)
+#2 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(XpfUsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-07 09:36:01 Error: [MissingViewException] View file "/home/franarc1/public_html/listaprecios/View/XpfUsers/view.ctp" is missing.
+#0 /home/franarc1/public_html/cakephp/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/franarc1/public_html/cakephp/lib/Cake/Controller/Controller.php(962): View->render(NULL, NULL)
+#2 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/franarc1/public_html/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(XpfUsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-10 16:27:14 Error: [MissingControllerException] Controller class ImágenesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-10 16:28:00 Error: [MissingControllerException] Controller class ImágenesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-10 16:28:29 Error: [MissingControllerException] Controller class ImágenesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-10 16:28:46 Error: [MissingControllerException] Controller class ImágenesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-11 13:41:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-11 13:42:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /home/franarc1/public_html/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-24 08:56:50 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'franarc1_www'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /var/www/franar/cakephp/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /var/www/franar/cakephp/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/franar/cakephp/lib/Cake/Model/Model.php(3354): ConnectionManager::getDataSource('default')
+#3 /var/www/franar/cakephp/lib/Cake/Model/Model.php(1085): Model->setDataSource('default')
+#4 /var/www/franar/cakephp/lib/Cake/Model/Model.php(3380): Model->setSource('xpf_users')
+#5 /var/www/franar/cakephp/lib/Cake/Model/Model.php(1278): Model->getDataSource()
+#6 /var/www/franar/cakephp/lib/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#7 /var/www/franar/cakephp/lib/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/franar/listaprecios/View/Users/login.ctp(2): FormHelper->create('User', Array)
+#9 /var/www/franar/cakephp/lib/Cake/View/View.php(908): include('/var/www/franar...')
+#10 /var/www/franar/cakephp/lib/Cake/View/View.php(872): View->_evaluate('/var/www/franar...', Array)
+#11 /var/www/franar/cakephp/lib/Cake/View/View.php(463): View->_render('/var/www/franar...')
+#12 /var/www/franar/cakephp/lib/Cake/Controller/Controller.php(962): View->render(NULL, NULL)
+#13 /var/www/franar/cakephp/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#14 /var/www/franar/cakephp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/franar/listaprecios/webroot/index.php(105): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
