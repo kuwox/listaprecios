@@ -24,7 +24,7 @@ public function login() {
 					#hacemos el login del joomla
 					#dividiendo el password en la BD en 2 partes a partir del simbolo ':'
 					#$parts	= explode( ':', $usuario['User']['password'] );
-					$parts   = explode( ':', $usuario['']['password'] );
+					$parts   = explode( ':', $usuario['User']['password'] );
 					#$parts	= explode( ':', $user['User']['password'] );
 					#la 1ra parte es el password ya encriptado
 					$crypt	= $parts[0];
