@@ -15,7 +15,7 @@ public function login() {
 	#buscamos un usuario en la BASE de datos a partir de su 'username'
 		if ($this->request->is('post')) {
 		if ($this->User->validates(array('fieldList' => array('username', 'password')))) {
-			if(!empty($this->data) && strlen($this->data['User']['password'])>6) 
+			if(isset($this->data) && strlen($this->data['User']['password'])>6) 
 				$usuario = $this->User->findAllByUsername($this->data['User']['username']);
 				#verificamos que el usuario exista
 				if(count($usuario) == 1) {
@@ -23,8 +23,7 @@ public function login() {
 					$usuario = $usuario[0];
 					#hacemos el login del joomla
 					#dividiendo el password en la BD en 2 partes a partir del simbolo ':'
-					#$parts	= explode( ':', $usuario['User']['password'] );
-					$parts   = explode( ':', $usuario['User']['password'] );
+					$parts	= explode( ':', $usuario[0]['password'] );
 					#$parts	= explode( ':', $user['User']['password'] );
 					#la 1ra parte es el password ya encriptado
 					$crypt	= $parts[0];
@@ -41,14 +40,14 @@ public function login() {
 						
 						// si es un administrador enviarlo al redireccionamiento por defecto del componente, de lo contrario debe enviarlo
 						// a la página de impresión de lista
-						$rol_usuario = $usuario['User']['usertype'];
+						$rol_usuario = $usuario[0]['usertype'];
 						if (($rol_usuario == 'Administrator')||($rol_usuario == 'Super Administrator')){
 							$this->redirect($this->Auth->redirect());
 						}	
 						else {
 							// si es cualquier otro usuario llevarlo a la página de la lista
-							$id_usuario= $usuario['User']['id'];
-							$nombre_usuario = $usuario['User']['name'];
+							$id_usuario= $usuario[0]['id'];
+							$nombre_usuario = $usuario[0]['name'];
 							$vinculo_lista = "/marcadeagua/seleccionar_lista.php?usr=".$id_usuario."&nbusr=".$nombre_usuario;
 							$this->redirect($vinculo_lista);
 						}
@@ -72,7 +71,3 @@ public function logout() {
 
 
 }
-
-
-   
-  
